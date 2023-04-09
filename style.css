@@ -1,0 +1,212 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0 ;}
+body{
+    font-family:'poppins',sans-serif;
+    color: black;
+    font-size: 15px;
+    line-height: 1.5;
+}
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.img{
+  height: 40px;
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+.class1{
+  background-color:#bdbcbc;
+}
+.section1{
+  margin-top: 65px;
+  margin-left: 100px;
+  
+  
+  
+}
+.a{
+  float: left;/*t7ot les div bijnab b3ath hom*/
+  margin-top: 140px;
+  
+  
+}
+.section1 h{
+  align-items: left;
+  font-size: 2.4rem; 
+  font-weight:700px ;
+}
+.section1 p{
+  margin-top: 50px;
+  align-items: left;
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;  
+}
+.logo1{
+  width: 14cm;
+  height:10cm;
+  margin-left: 300px;
+  margin-top: 120px;
+  margin-right: 0;
+  margin-bottom: 144px;
+ 
+}
+.section2 h2{
+  align-items: center;
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 400;  
+  margin-bottom: 90px;
+  margin-top:70px ;
+}
+img {
+  border-radius: 50%;
+}
+
+
+
+
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+
+
+.section3 h2{
+  align-items: center;
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 400;  
+  margin-bottom: 90px;
+  margin-top:70px ;
+  
+}
+.section3 h{
+  font-size: 1.4rem;
+  font-weight: 400;  
+  margin-bottom: 90px;
+  margin-top:70px ;
+  margin-left: 90px;
+  
+}
+.section3 p{
+  margin-top: 50px;
+  align-items: left;
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;  
+  margin-left: 90px;
+}
+
+
+.logo2{
+  margin-left: 300px;
+  margin-top: 70px;
+  margin-right: 15px;
+  margin-bottom: 144px;
+  width: 30%;
+ 
+}
+.b{
+  float: left;/*t7ot les div bijnab b3ath hom*/
+  margin-top: 140px;
+}
+.b1{
+  background-color:#bdbcbc;
+  margin-bottom: 90px;
+  margin-top: 6px;
+}
+.class3{
+  margin-bottom: 170px;
+  margin-top: 30px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #333;
+  color: white;
+  
+}
+footer h4{
+  text-decoration-color: #f2f2f2;
+  text-decoration: none;
+}
